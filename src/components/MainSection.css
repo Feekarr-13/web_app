@@ -1,0 +1,47 @@
+/* src/components/MainSection.css */
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b3e5fc;
+    padding: 50px;
+}
+
+.text-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.main-title {
+    color: #4a90e2;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.main-subtitle {
+    color: #4a90e2;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #000;
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #ffd54f;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
