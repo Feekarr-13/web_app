@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar';
 import MainSection from './components/MainSection';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
 import Footer from './components/Footer';
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <MainSection />
       {/* Konten lainnya */}
       <Footer />
+      <Login/>
+      <SignUp/>
     </div>
   );
 }
